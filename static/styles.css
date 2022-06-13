@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     font-family:'Gill Sans', 'Gill Sans MT';
 }
-.me-5 {
+.navtext {
     color: white !important;  
 }
 .login {
@@ -37,8 +37,11 @@ body {
     margin: 4px 2px;
   }
   .front-text {
-      padding-top: 230px;
-      padding-left: 50px;
+      /* padding-top: 230px;
+      padding-left: 50px; */
+      position: absolute;
+      top: 40%;
+      left: 3.8%;
       font-size: 50px;
       font-family:'Trebuchet MS', sans-serif;
       width: 30%;
@@ -56,4 +59,11 @@ body {
   .navbar-brand {
       color: #216A8D; 
       font-weight: bold;
+  }
+  .enrollBtn {
+    position: absolute;
+    top: 60%;
+    left: 3.8%;
+    background-color: #216A8D; 
+    color: white;
   }
