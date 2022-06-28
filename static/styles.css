@@ -1,69 +1,28 @@
 body {
-    background-image: url("background-image.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family:'Gill Sans', 'Gill Sans MT';
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  background-color: #212529;
 }
-.navtext {
-    color: white !important;  
+
+.bk-img {
+  background-image: url("background-img.jpg");
+  background-size: cover;
 }
-.login {
-    background-color: #216A8D;
-    border: none;
-    color: white;
-    font-size: 20px;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline;
-    margin-left: 1200px;
-    margin-top: 10px;
-    cursor: pointer;
-    border-radius: 20px;
-    
-  }
-  .signup {
-    background-color: #216A8D;
-    border: none;
-    color: white;
-    font-size: 20px;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 1300px;
-    cursor: pointer;
-    border-radius: 20px;
-    margin: 4px 2px;
-  }
-  .front-text {
-      /* padding-top: 230px;
-      padding-left: 50px; */
-      position: absolute;
-      top: 40%;
-      left: 3.8%;
-      font-size: 50px;
-      font-family:'Trebuchet MS', sans-serif;
-      width: 30%;
-      color: white; 
-  }
-  .enroll {
-        background-color: #216A8D;
-        border: none;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        cursor: pointer;
-        border-radius: 16px;
-  }
-  .navbar-brand {
-      color: #216A8D; 
-      font-weight: bold;
-  }
-  .enrollBtn {
-    position: absolute;
-    top: 60%;
-    left: 3.8%;
-    background-color: #216A8D; 
-    color: white;
-  }
+
+.navtextclr {
+  color: rgb(155, 153, 153);
+}
+
+.navbar-brand {
+  color: #216A8D;
+  font-weight: bold;
+}
+
+.position-change {
+  margin-top: 200px;
+}
+
+.main-page-height {
+  height: 700px;
+}
